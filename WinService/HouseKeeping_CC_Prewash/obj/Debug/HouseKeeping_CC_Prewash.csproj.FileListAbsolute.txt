@@ -70,3 +70,39 @@ D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\D
 D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csproj.CopyComplete
 D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.exe
 D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\WinSCP.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.exe.config
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\log4net.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\WinSCPnet.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Cronos.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Handlebars.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\ExcelNumberFormat.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\FastMember.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.exe.config
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\log4net.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Cronos.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\bin\Debug\ExcelNumberFormat.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csprojAssemblyReference.cache
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csproj.CoreCompileInputs.cache
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csproj.CopyComplete
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.pdb

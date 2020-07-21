@@ -103,3 +103,39 @@ D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Repo
 D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CopyComplete
 D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.exe
 D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\WinSCP.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe.config
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Common.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\log4net.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\WinSCPnet.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Cronos.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\ClosedXML.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Dapper.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Handlebars.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\FastMember.dll
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Common.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Common.exe.config
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\log4net.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Cronos.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\ClosedXML.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\ClosedXML.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Dapper.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.pdb
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.xml
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csprojAssemblyReference.cache
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CoreCompileInputs.cache
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CopyComplete
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.exe
+C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.pdb
