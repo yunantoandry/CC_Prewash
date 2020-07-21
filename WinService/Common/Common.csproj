@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D6DB3FF-D345-4A28-A8FB-C40AA5E172BC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Common</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.94.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.94.2\lib\net46\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="Cronos, Version=0.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cronos.0.7.0\lib\net45\Cronos.dll</HintPath>
+    </Reference>
+    <Reference Include="DansCSharpLibrary, Version=5.3.0.0, Culture=neutral, PublicKeyToken=1c2616cf3f9f529d, processorArchitecture=MSIL">
+      <HintPath>..\packages\DansUtilityLibraries.CSharpLibrary.5.3.0.0\lib\net45\DansCSharpLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.30\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper.Extension, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.Extension.1.0.0.1\lib\net45\Dapper.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper.SimpleCRUD, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.SimpleCRUD.2.2.0.1\lib\netstandard2.0\Dapper.SimpleCRUD.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.3.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.3\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.1.3.0\lib\net45\FastMember.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP, Version=32.0.0.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentFTP.32.0.0\lib\net45\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Handlebars, Version=1.9.5.0, Culture=neutral, PublicKeyToken=22225d0bf33cd661, processorArchitecture=MSIL">
+      <HintPath>..\packages\Handlebars.Net.1.9.5\lib\net452\Handlebars.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonSubTypes, Version=1.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JsonSubTypes.1.5.1\lib\net47\JsonSubTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.FileSystems, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.FileSystems.2.1.0\lib\net40\Microsoft.Owin.FileSystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.HttpListener, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.HttpListener.2.1.0\lib\net45\Microsoft.Owin.Host.HttpListener.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Hosting, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Hosting.2.1.0\lib\net45\Microsoft.Owin.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.StaticFiles, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.StaticFiles.2.1.0\lib\net45\Microsoft.Owin.StaticFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.19\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz, Version=3.0.7.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.3.0.7\lib\net452\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz.Plugins.RecentHistory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.Plugins.RecentHistory.1.0.3\lib\net452\Quartz.Plugins.RecentHistory.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartzmin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartzmin.1.0.3\lib\net452\Quartzmin.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartzmin.SelfHost, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartzmin.SelfHost.1.0.3\lib\net452\Quartzmin.SelfHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.0.1\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.0.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.6\lib\net45\System.Web.Http.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WinSCPnet, Version=1.6.5.10071, Culture=neutral, PublicKeyToken=2271ec4a3c56d0bf, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinSCP.5.15.9\lib\net\WinSCPnet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationException.cs" />
+    <Compile Include="Connection\Conection.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Extensions\ExceptionExtensions.cs" />
+    <Compile Include="Extensions\FtpServiceHelperExtensions.cs" />
+    <Compile Include="Extensions\LinqExtensions.cs" />
+    <Compile Include="Extensions\StatusTransactions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Model\euc_cc_input.cs" />
+    <Compile Include="Model\euc_cc_sid_agunan.cs" />
+    <Compile Include="Model\euc_cc_sid_alamat.cs" />
+    <Compile Include="Model\euc_cc_sid_debitur.cs" />
+    <Compile Include="Model\euc_cc_sid_kolektibilitas.cs" />
+    <Compile Include="Model\euc_cc_sid_pekerjaan.cs" />
+    <Compile Include="Model\euc_cc_sid_sumber.cs" />
+    <Compile Include="Model\euc_cc_sid_summary.cs" />
+    <Compile Include="Model\IdNumber.cs" />
+    <Compile Include="Model\JsonResultMessage.cs" />
+    <Compile Include="Model\Reporting_risk.cs" />
+    <Compile Include="Model\ms_system_parameter.cs" />
+    <Compile Include="Model\Smtp.cs" />
+    <Compile Include="Model\Table_RAC.cs" />
+    <Compile Include="Model\th_audit_trail.cs" />
+    <Compile Include="Model\tr_log_transportservices.cs" />
+    <Compile Include="Model\log_error.cs" />
+    <Compile Include="Model\tr_log_xml.cs" />
+    <Compile Include="Model\tr_log_xml_error.cs" />
+    <Compile Include="Model\tr_log_xml_success.cs" />
+    <Compile Include="Model\tr_xml_trans.cs" />
+    <Compile Include="Model\tr_sendTxtToFTPList.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\DBHelper.cs" />
+    <Compile Include="Repository\PropertyContainer.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\Rep_AuditTrail.cs" />
+    <Compile Include="Repository\Rep_HK_CcPrewash.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_input.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_sid_agunan.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_sid_alamat.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_sid_debitur.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_sid_kolektibilitas.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_sid_pekerjaan.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_sid_sumber.cs" />
+    <Compile Include="Repository\Rep_ms_euc_cc_sid_summary.cs" />
+    <Compile Include="Repository\Rep_ms_System_Parameter.cs" />
+    <Compile Include="Repository\Rep_no_xml_crde_prewash.cs" />
+    <Compile Include="Repository\Rep_log_error.cs" />
+    <Compile Include="Repository\Rep_Reporting_risk.cs" />
+    <Compile Include="Repository\Rep_Table_RAC.cs" />
+    <Compile Include="Repository\Rep_tr_log_xml.cs" />
+    <Compile Include="Repository\Rep_tr_log_xml_error.cs" />
+    <Compile Include="Repository\Rep_tr_log_xml_success.cs" />
+    <Compile Include="Repository\Rep_tr_xml_trans.cs" />
+    <Compile Include="Repository\Rep_tr_sendTxtToFTPList.cs" />
+    <Compile Include="Repository\Save.cs" />
+    <Compile Include="Services\CurrentDateTimeService.cs" />
+    <Compile Include="Services\HouseKeeping\HK_CcPrewash.cs" />
+    <Compile Include="Services\ICurrentDateTimeService.cs" />
+    <Compile Include="Services\Email\Dto\CreateMailMessageInput.cs" />
+    <Compile Include="Services\Email\Dto\EmailAccountInformation.cs" />
+    <Compile Include="Services\Email\Dto\EmailSubjectAndBody.cs" />
+    <Compile Include="Services\Email\Dto\EmailSubjectAndBodyTemplate.cs" />
+    <Compile Include="Services\Email\Dto\IHasFromAndToAddress.cs" />
+    <Compile Include="Services\Email\Dto\SendEmailResult.cs" />
+    <Compile Include="Services\Email\EmailCreator.cs" />
+    <Compile Include="Services\Email\EmailSender.cs" />
+    <Compile Include="Services\Email\IEmailCreator.cs" />
+    <Compile Include="Services\Email\IEmailSender.cs" />
+    <Compile Include="Services\Email\SendEmail.cs" />
+    <Compile Include="Services\Email\SendEmailsReportingRiskCommander.cs" />
+    <Compile Include="Services\System\SystemService.cs" />
+    <Compile Include="Utils\SmtpUtil.cs" />
+    <Compile Include="XML\ConvertTxtToXML.cs" />
+    <Compile Include="Services\FTP\FTPS.cs" />
+    <Compile Include="Services\Reporting\Create_Reporting_Risk.cs" />
+    <Compile Include="Services\Scheduling\BackgroundProcess.cs" />
+    <Compile Include="Services\Scheduling\BackgroundProcessCreator.cs" />
+    <Compile Include="Services\Scheduling\BackgroundProcessSettingsProvider.cs" />
+    <Compile Include="Services\Scheduling\DTO\WhenToRunNextDto.cs" />
+    <Compile Include="Services\Scheduling\DTO\WhenToRunNextResultType.cs" />
+    <Compile Include="Services\Scheduling\IBackgroundProcessSettingsProvider.cs" />
+    <Compile Include="Services\Scheduling\WhenToRunNextHelper.cs" />
+    <Compile Include="Services\FTP\SendFileToFTP.cs" />
+    <Compile Include="Services\System\Dto\DsvStorageFolders.cs" />
+    <Compile Include="Services\System\Dto\FtpUploadParameter.cs" />
+    <Compile Include="Services\System\Dto\HourAndMinuteDto.cs" />
+    <Compile Include="Services\System\Dto\IHasFoldersToStoreXmlLocally.cs" />
+    <Compile Include="Services\System\Dto\SystemEmailTemplates.cs" />
+    <Compile Include="Services\System\Dto\SystemParameterDictionary.cs" />
+    <Compile Include="Services\System\Dto\XmlMessagingSettings.cs" />
+    <Compile Include="Services\System\Dto\XmlStorageFolders.cs" />
+    <Compile Include="Services\System\ISystemService.cs" />
+    <Compile Include="UserFriendlyException.cs" />
+    <Compile Include="Utils\CreateFiles.cs" />
+    <Compile Include="Utils\CryptoUtil.cs" />
+    <Compile Include="Utils\DateTimeUtil.cs" />
+    <Compile Include="Utils\ExceptionUtil.cs" />
+    <Compile Include="Utils\FileSystemUtil.cs" />
+    <Compile Include="Utils\FtpUtils.cs" />
+    <Compile Include="Utils\GridViewExportUtil.cs" />
+    <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\LogUtil.cs" />
+    <Compile Include="Utils\MultiValueColumnParser.cs" />
+    <Compile Include="Utils\Serializer.cs" />
+    <Compile Include="Utils\ServiceConfiguration.cs" />
+    <Compile Include="Utils\StringExtensions.cs" />
+    <Compile Include="Utils\StringWriterUtf8.cs" />
+    <Compile Include="Utils\TransactionUtil.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Web References\svcCrde\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="XmlModel\CrdeXML.cs" />
+    <Compile Include="XmlModel\EUC_CC_INPUT.cs" />
+    <Compile Include="XmlModel\EUC_CC_SID_AGUNAN.cs" />
+    <Compile Include="XmlModel\EUC_CC_SID_ALAMAT.cs" />
+    <Compile Include="XmlModel\EUC_CC_SID_DEBITUR.cs" />
+    <Compile Include="XmlModel\EUC_CC_SID_KOLEKTIBILITAS.cs" />
+    <Compile Include="XmlModel\EUC_CC_SID_PEKERJAAN.cs" />
+    <Compile Include="XmlModel\EUC_CC_SID_SUMBER.cs" />
+    <Compile Include="XmlModel\EUC_CC_SID_SUMMARY.cs" />
+    <Compile Include="XML\CreateFiles.cs" />
+    <Compile Include="XML\GenerateXML.cs" />
+    <Compile Include="XML\ReadAndSaveToDatabase.cs" />
+    <Compile Include="XML\SaveXmlToDB.cs" />
+    <Compile Include="XML\XMLCreateCRDE.cs" />
+    <Compile Include="XML\XmlHitCrde.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\svcCrde\ProcessManager.wsdl" />
+    <None Include="Web References\svcCrde\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\svcCrde\SecurityToken.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.25.130.28/ProcessManager.WebService.Online.SLIK/ProcessManager.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\svcCrde\</RelPath>
+      <UpdateFromURL>http://10.25.130.28/ProcessManager.WebService.Online.SLIK/ProcessManager.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Common_svcCrde_ProcessManager</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\svcCrde\ProcessManager.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Services\Email\EmailTemplates\AsnUnconfirmedEmailTemplate.html" />
+    <Content Include="Services\Email\EmailTemplates\GeneralTemplate.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\WinSCP.5.15.9\build\WinSCP.targets" Condition="Exists('..\packages\WinSCP.5.15.9\build\WinSCP.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\WinSCP.5.15.9\build\WinSCP.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WinSCP.5.15.9\build\WinSCP.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,108 @@
+D:\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CoreCompileInputs.cache
+D:\WinService\BP_2_services\bin\Debug\WinSCP.exe
+D:\WinService\BP_2_services\bin\Debug\BP_2_services.exe.config
+D:\WinService\BP_2_services\bin\Debug\BP_2_services.exe
+D:\WinService\BP_2_services\bin\Debug\BP_2_services.pdb
+D:\WinService\BP_2_services\bin\Debug\Common.exe
+D:\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.dll
+D:\WinService\BP_2_services\bin\Debug\log4net.dll
+D:\WinService\BP_2_services\bin\Debug\Newtonsoft.Json.dll
+D:\WinService\BP_2_services\bin\Debug\WinSCPnet.dll
+D:\WinService\BP_2_services\bin\Debug\Cronos.dll
+D:\WinService\BP_2_services\bin\Debug\ClosedXML.dll
+D:\WinService\BP_2_services\bin\Debug\Dapper.dll
+D:\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.dll
+D:\WinService\BP_2_services\bin\Debug\Handlebars.dll
+D:\WinService\BP_2_services\bin\Debug\DocumentFormat.OpenXml.dll
+D:\WinService\BP_2_services\bin\Debug\ExcelNumberFormat.dll
+D:\WinService\BP_2_services\bin\Debug\FastMember.dll
+D:\WinService\BP_2_services\bin\Debug\Common.pdb
+D:\WinService\BP_2_services\bin\Debug\Common.exe.config
+D:\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.pdb
+D:\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.xml
+D:\WinService\BP_2_services\bin\Debug\log4net.xml
+D:\WinService\BP_2_services\bin\Debug\Newtonsoft.Json.xml
+D:\WinService\BP_2_services\bin\Debug\Cronos.xml
+D:\WinService\BP_2_services\bin\Debug\ClosedXML.pdb
+D:\WinService\BP_2_services\bin\Debug\ClosedXML.xml
+D:\WinService\BP_2_services\bin\Debug\Dapper.xml
+D:\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.xml
+D:\WinService\BP_2_services\bin\Debug\DocumentFormat.OpenXml.xml
+D:\WinService\BP_2_services\bin\Debug\ExcelNumberFormat.xml
+D:\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CopyComplete
+D:\WinService\BP_2_services\obj\Debug\BP_2_services.exe
+D:\WinService\BP_2_services\obj\Debug\BP_2_services.pdb
+D:\WinService\BP_2_services\obj\Debug\BP_2_services.csprojAssemblyReference.cache
+D:\test_one_run\WinService\BP_2_services\bin\Debug\WinSCP.exe
+D:\test_one_run\WinService\BP_2_services\bin\Debug\BP_2_services.exe.config
+D:\test_one_run\WinService\BP_2_services\bin\Debug\BP_2_services.exe
+D:\test_one_run\WinService\BP_2_services\bin\Debug\BP_2_services.pdb
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Common.exe
+D:\test_one_run\WinService\BP_2_services\bin\Debug\log4net.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\WinSCPnet.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Cronos.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Newtonsoft.Json.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\ClosedXML.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Dapper.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Handlebars.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\DocumentFormat.OpenXml.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\ExcelNumberFormat.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\FastMember.dll
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Common.pdb
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Common.exe.config
+D:\test_one_run\WinService\BP_2_services\bin\Debug\log4net.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Cronos.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Newtonsoft.Json.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\ClosedXML.pdb
+D:\test_one_run\WinService\BP_2_services\bin\Debug\ClosedXML.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Dapper.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\test_one_run\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.pdb
+D:\test_one_run\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\DocumentFormat.OpenXml.xml
+D:\test_one_run\WinService\BP_2_services\bin\Debug\ExcelNumberFormat.xml
+D:\test_one_run\WinService\BP_2_services\obj\Debug\BP_2_services.csprojAssemblyReference.cache
+D:\test_one_run\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CoreCompileInputs.cache
+D:\test_one_run\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CopyComplete
+D:\test_one_run\WinService\BP_2_services\obj\Debug\BP_2_services.exe
+D:\test_one_run\WinService\BP_2_services\obj\Debug\BP_2_services.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\WinSCP.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\BP_2_services.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\BP_2_services.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\BP_2_services.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Common.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\log4net.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\WinSCPnet.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Cronos.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Newtonsoft.Json.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\ClosedXML.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Dapper.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Handlebars.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\DocumentFormat.OpenXml.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\ExcelNumberFormat.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\FastMember.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Common.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Common.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\log4net.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Cronos.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Newtonsoft.Json.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\ClosedXML.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\ClosedXML.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Dapper.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\Dapper.SimpleCRUD.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\DocumentFormat.OpenXml.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\bin\Debug\ExcelNumberFormat.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\obj\Debug\BP_2_services.csprojAssemblyReference.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CoreCompileInputs.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CopyComplete
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\obj\Debug\BP_2_services.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\BP_2_services\obj\Debug\BP_2_services.pdb

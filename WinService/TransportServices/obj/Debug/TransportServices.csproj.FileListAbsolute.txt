@@ -1,0 +1,231 @@
+D:\WinService\TransportServices\obj\Debug\TransportServices.csproj.CoreCompileInputs.cache
+D:\WinService\TransportServices\obj\Debug\TransportServices.csprojAssemblyReference.cache
+D:\WinService\TransportServices\bin\Debug\WinSCP.exe
+D:\WinService\TransportServices\bin\Debug\TransportServices.exe.config
+D:\WinService\TransportServices\bin\Debug\TransportServices.exe
+D:\WinService\TransportServices\bin\Debug\TransportServices.pdb
+D:\WinService\TransportServices\bin\Debug\Common.exe
+D:\WinService\TransportServices\bin\Debug\Common.Logging.Core.dll
+D:\WinService\TransportServices\bin\Debug\Common.Logging.dll
+D:\WinService\TransportServices\bin\Debug\DansCSharpLibrary.dll
+D:\WinService\TransportServices\bin\Debug\Handlebars.dll
+D:\WinService\TransportServices\bin\Debug\JsonSubTypes.dll
+D:\WinService\TransportServices\bin\Debug\log4net.dll
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.dll
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.FileSystems.dll
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.StaticFiles.dll
+D:\WinService\TransportServices\bin\Debug\Newtonsoft.Json.dll
+D:\WinService\TransportServices\bin\Debug\Owin.dll
+D:\WinService\TransportServices\bin\Debug\Quartz.dll
+D:\WinService\TransportServices\bin\Debug\Quartz.Plugins.RecentHistory.dll
+D:\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.dll
+D:\WinService\TransportServices\bin\Debug\Quartzmin.dll
+D:\WinService\TransportServices\bin\Debug\Quartzmin.SelfHost.dll
+D:\WinService\TransportServices\bin\Debug\System.Net.Http.Formatting.dll
+D:\WinService\TransportServices\bin\Debug\System.Web.Http.dll
+D:\WinService\TransportServices\bin\Debug\System.Web.Http.Owin.dll
+D:\WinService\TransportServices\bin\Debug\System.Web.Http.WebHost.dll
+D:\WinService\TransportServices\bin\Debug\Topshelf.dll
+D:\WinService\TransportServices\bin\Debug\Topshelf.Quartz.dll
+D:\WinService\TransportServices\bin\Debug\WinSCPnet.dll
+D:\WinService\TransportServices\bin\Debug\Cronos.dll
+D:\WinService\TransportServices\bin\Debug\ClosedXML.dll
+D:\WinService\TransportServices\bin\Debug\Dapper.dll
+D:\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.dll
+D:\WinService\TransportServices\bin\Debug\DocumentFormat.OpenXml.dll
+D:\WinService\TransportServices\bin\Debug\ExcelNumberFormat.dll
+D:\WinService\TransportServices\bin\Debug\FastMember.dll
+D:\WinService\TransportServices\bin\Debug\Common.pdb
+D:\WinService\TransportServices\bin\Debug\Common.exe.config
+D:\WinService\TransportServices\bin\Debug\Common.Logging.pdb
+D:\WinService\TransportServices\bin\Debug\Common.Logging.xml
+D:\WinService\TransportServices\bin\Debug\Common.Logging.Core.pdb
+D:\WinService\TransportServices\bin\Debug\Common.Logging.Core.xml
+D:\WinService\TransportServices\bin\Debug\DansCSharpLibrary.pdb
+D:\WinService\TransportServices\bin\Debug\DansCSharpLibrary.xml
+D:\WinService\TransportServices\bin\Debug\log4net.xml
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.xml
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.FileSystems.xml
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\WinService\TransportServices\bin\Debug\Microsoft.Owin.StaticFiles.xml
+D:\WinService\TransportServices\bin\Debug\Newtonsoft.Json.xml
+D:\WinService\TransportServices\bin\Debug\Quartz.pdb
+D:\WinService\TransportServices\bin\Debug\Quartz.xml
+D:\WinService\TransportServices\bin\Debug\Quartz.Plugins.RecentHistory.xml
+D:\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.pdb
+D:\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.xml
+D:\WinService\TransportServices\bin\Debug\Quartzmin.xml
+D:\WinService\TransportServices\bin\Debug\Quartzmin.SelfHost.xml
+D:\WinService\TransportServices\bin\Debug\System.Net.Http.Formatting.xml
+D:\WinService\TransportServices\bin\Debug\System.Web.Http.xml
+D:\WinService\TransportServices\bin\Debug\System.Web.Http.Owin.xml
+D:\WinService\TransportServices\bin\Debug\System.Web.Http.WebHost.xml
+D:\WinService\TransportServices\bin\Debug\Topshelf.xml
+D:\WinService\TransportServices\bin\Debug\Cronos.xml
+D:\WinService\TransportServices\bin\Debug\ClosedXML.pdb
+D:\WinService\TransportServices\bin\Debug\ClosedXML.xml
+D:\WinService\TransportServices\bin\Debug\Dapper.xml
+D:\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.xml
+D:\WinService\TransportServices\bin\Debug\DocumentFormat.OpenXml.xml
+D:\WinService\TransportServices\bin\Debug\ExcelNumberFormat.xml
+D:\WinService\TransportServices\obj\Debug\TransportServices.csproj.CopyComplete
+D:\WinService\TransportServices\obj\Debug\TransportServices.exe
+D:\WinService\TransportServices\obj\Debug\TransportServices.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\WinSCP.exe
+D:\test_one_run\WinService\TransportServices\bin\Debug\TransportServices.exe.config
+D:\test_one_run\WinService\TransportServices\bin\Debug\TransportServices.exe
+D:\test_one_run\WinService\TransportServices\bin\Debug\TransportServices.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.exe
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.Logging.Core.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.Logging.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\DansCSharpLibrary.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Handlebars.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\JsonSubTypes.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\log4net.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.FileSystems.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.StaticFiles.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Newtonsoft.Json.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Owin.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.Plugins.RecentHistory.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartzmin.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartzmin.SelfHost.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Net.Http.Formatting.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Web.Http.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Web.Http.Owin.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Web.Http.WebHost.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Topshelf.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Topshelf.Quartz.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\WinSCPnet.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Cronos.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\ClosedXML.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Dapper.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\DocumentFormat.OpenXml.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\ExcelNumberFormat.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\FastMember.dll
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.exe.config
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.Logging.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.Logging.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.Logging.Core.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\Common.Logging.Core.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\DansCSharpLibrary.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\DansCSharpLibrary.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\log4net.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.FileSystems.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Microsoft.Owin.StaticFiles.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Newtonsoft.Json.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.Plugins.RecentHistory.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartzmin.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Quartzmin.SelfHost.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Net.Http.Formatting.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Web.Http.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Web.Http.Owin.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\System.Web.Http.WebHost.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Topshelf.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Cronos.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\ClosedXML.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\ClosedXML.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Dapper.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\test_one_run\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\DocumentFormat.OpenXml.xml
+D:\test_one_run\WinService\TransportServices\bin\Debug\ExcelNumberFormat.xml
+D:\test_one_run\WinService\TransportServices\obj\Debug\TransportServices.csprojAssemblyReference.cache
+D:\test_one_run\WinService\TransportServices\obj\Debug\TransportServices.csproj.CoreCompileInputs.cache
+D:\test_one_run\WinService\TransportServices\obj\Debug\TransportServices.csproj.CopyComplete
+D:\test_one_run\WinService\TransportServices\obj\Debug\TransportServices.exe
+D:\test_one_run\WinService\TransportServices\obj\Debug\TransportServices.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\WinSCP.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\TransportServices.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\TransportServices.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\TransportServices.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.Logging.Core.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.Logging.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\DansCSharpLibrary.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Handlebars.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\JsonSubTypes.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\log4net.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.FileSystems.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.StaticFiles.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Newtonsoft.Json.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Owin.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.Plugins.RecentHistory.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartzmin.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartzmin.SelfHost.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Net.Http.Formatting.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Web.Http.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Web.Http.Owin.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Web.Http.WebHost.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Topshelf.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Topshelf.Quartz.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\WinSCPnet.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Cronos.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\ClosedXML.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Dapper.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\DocumentFormat.OpenXml.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\ExcelNumberFormat.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\FastMember.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.Logging.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.Logging.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.Logging.Core.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Common.Logging.Core.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\DansCSharpLibrary.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\DansCSharpLibrary.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\log4net.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.FileSystems.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Microsoft.Owin.StaticFiles.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Newtonsoft.Json.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.Plugins.RecentHistory.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartz.Serialization.Json.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartzmin.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Quartzmin.SelfHost.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Net.Http.Formatting.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Web.Http.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Web.Http.Owin.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\System.Web.Http.WebHost.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Topshelf.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Cronos.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\ClosedXML.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\ClosedXML.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Dapper.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\Dapper.SimpleCRUD.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\DocumentFormat.OpenXml.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\bin\Debug\ExcelNumberFormat.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\obj\Debug\TransportServices.csprojAssemblyReference.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\obj\Debug\TransportServices.csproj.CoreCompileInputs.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\obj\Debug\TransportServices.csproj.CopyComplete
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\obj\Debug\TransportServices.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\TransportServices\obj\Debug\TransportServices.pdb

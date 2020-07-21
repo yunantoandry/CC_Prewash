@@ -1,0 +1,14 @@
+D:\WinService\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\WinService\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\WinService\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\test_one_run\WinService\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\test_one_run\WinService\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\test_one_run\WinService\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\test_one_run\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\test_one_run\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\test_one_run\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\test_one_run\WinService\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache

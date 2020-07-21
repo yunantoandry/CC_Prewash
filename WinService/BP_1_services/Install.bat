@@ -1,0 +1,1 @@
+﻿"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe" "D:\Code\mds\mds-bookingapps-project3PL\Mds.FileWatcher\bin\Debug\Mds.FileWatcher.exe"

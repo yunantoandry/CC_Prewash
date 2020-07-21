@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Quartzmin</name>
+    </assembly>
+    <members>
+        <member name="T:Quartzmin.Owin.FixedEmbeddedResourceFileSystem">
+            <summary>
+            Looks up files using embedded resources in the specified assembly.
+            This file system is case sensitive.
+            </summary>
+        </member>
+        <member name="M:Quartzmin.Owin.FixedEmbeddedResourceFileSystem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Quartzmin.Owin.FixedEmbeddedResourceFileSystem" /> class using the calling
+            assembly and empty base namespace.
+            </summary>
+        </member>
+        <member name="M:Quartzmin.Owin.FixedEmbeddedResourceFileSystem.#ctor(System.Reflection.Assembly)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Quartzmin.Owin.FixedEmbeddedResourceFileSystem" /> class using the specified
+            assembly and empty base namespace.
+            </summary>
+            <param name="assembly"></param>
+        </member>
+        <member name="M:Quartzmin.Owin.FixedEmbeddedResourceFileSystem.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Quartzmin.Owin.FixedEmbeddedResourceFileSystem" /> class using the calling
+            assembly and specified base namespace.
+            </summary>
+            <param name="baseNamespace">The base namespace that contains the embedded resources.</param>
+        </member>
+        <member name="M:Quartzmin.Owin.FixedEmbeddedResourceFileSystem.#ctor(System.Reflection.Assembly,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Quartzmin.Owin.FixedEmbeddedResourceFileSystem" /> class using the specified
+            assembly and base namespace.
+            </summary>
+            <param name="assembly">The assembly that contains the embedded resources.</param>
+            <param name="baseNamespace">The base namespace that contains the embedded resources.</param>
+        </member>
+        <member name="M:Quartzmin.Owin.FixedEmbeddedResourceFileSystem.TryGetFileInfo(System.String,Microsoft.Owin.FileSystems.IFileInfo@)">
+            <summary>
+            Locate a file at the given path
+            </summary>
+            <param name="subpath">The path that identifies the file</param>
+            <param name="fileInfo">The discovered file if any</param>
+            <returns>True if a file was located at the given path</returns>
+        </member>
+        <member name="M:Quartzmin.Owin.FixedEmbeddedResourceFileSystem.TryGetDirectoryContents(System.String,System.Collections.Generic.IEnumerable{Microsoft.Owin.FileSystems.IFileInfo}@)">
+            <summary>
+            Enumerate a directory at the given path, if any.
+            This file system uses a flat directory structure. Everything under the base namespace is considered to be one directory.
+            </summary>
+            <param name="subpath">The path that identifies the directory</param>
+            <param name="contents">The contents if any</param>
+            <returns>True if a directory was located at the given path</returns>
+        </member>
+        <member name="P:Quartzmin.QuartzminOptions.Logo">
+            <summary>
+            Supports any value that is a viable as a img src attribute value: url, or base64
+            src='data:image/jpeg;base64, LzlqLzRBQ...[end of base64 data]'
+            Defaults to the quartzmin original logo
+            </summary>
+        </member>
+        <member name="P:Quartzmin.QuartzminOptions.StandardTypes">
+            <summary>
+            Supported value types in job data map.
+            </summary>
+        </member>
+        <member name="P:Quartzmin.QuartzminOptions.DefaultSelectedType">
+            <summary>
+            Default type for new job data map item.
+            </summary>
+        </member>
+        <member name="P:Quartzmin.TypeHandlers.EmbeddedTypeHandlerResourcesAttribute.Assembly">
+            <summary>
+            Should override when used in another assembly.
+            </summary>
+        </member>
+        <member name="P:Quartzmin.TypeHandlers.EmbeddedTypeHandlerResourcesAttribute.Namespace">
+            <summary>
+            Should override when used in another assembly.
+            </summary>
+        </member>
+        <member name="M:Quartzmin.TypeHandlers.OptionSetHandler.GetItems">
+            <summary>
+            Return Key->DisplayName
+            </summary>
+        </member>
+        <member name="P:Quartzmin.TypeHandlers.TypeHandlerBase.TypeId">
+            <summary>
+            Type Discriminator
+            </summary>
+        </member>
+        <member name="P:Quartzmin.TypeHandlers.TypeHandlerBase.Name">
+            <summary>
+            Unique name across <see cref="P:Quartzmin.QuartzminOptions.StandardTypes"/>
+            </summary>
+        </member>
+        <member name="M:Quartzmin.TypeHandlers.TypeHandlerBase.ConvertFrom(System.Object)">
+            <summary>
+            If the value is expected type, just return the value. Every implementation should support conversion from String.
+            </summary>
+        </member>
+        <member name="M:Quartzmin.TypeHandlers.TypeHandlerBase.ConvertToString(System.Object)">
+            <summary>
+            Most of TypeHandlers support conversion from invariant string. Implement this method such as another TypeHandler can easily convert from this string.
+            </summary>
+        </member>
+        <member name="T:CronExpressionDescriptor.DescriptionTypeEnum">
+            <summary>
+            Enum to define the description "parts" of a Cron Expression  
+            </summary>
+        </member>
+        <member name="T:CronExpressionDescriptor.ExpressionDescriptor">
+            <summary>
+            Converts a Cron Expression into a human readable string
+            </summary>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CronExpressionDescriptor.ExpressionDescriptor"/> class
+            </summary>
+            <param name="expression">The cron expression string</param>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.#ctor(System.String,CronExpressionDescriptor.Options)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CronExpressionDescriptor.ExpressionDescriptor"/> class
+            </summary>
+            <param name="expression">The cron expression string</param>
+            <param name="options">Options to control the output description</param>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetDescription(CronExpressionDescriptor.DescriptionTypeEnum)">
+            <summary>
+            Generates a human readable string for the Cron Expression
+            </summary>
+            <param name="type">Which part(s) of the expression to describe</param>
+            <returns>The cron expression description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetFullDescription">
+            <summary>
+            Generates the FULL description
+            </summary>
+            <returns>The FULL description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetTimeOfDayDescription">
+            <summary>
+            Generates a description for only the TIMEOFDAY portion of the expression
+            </summary>
+            <returns>The TIMEOFDAY description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetSecondsDescription">
+            <summary>
+            Generates a description for only the SECONDS portion of the expression
+            </summary>
+            <returns>The SECONDS description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetMinutesDescription">
+            <summary>
+            Generates a description for only the MINUTE portion of the expression
+            </summary>
+            <returns>The MINUTE description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetHoursDescription">
+            <summary>
+            Generates a description for only the HOUR portion of the expression
+            </summary>
+            <returns>The HOUR description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetDayOfWeekDescription">
+            <summary>
+            Generates a description for only the DAYOFWEEK portion of the expression
+            </summary>
+            <returns>The DAYOFWEEK description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetMonthDescription">
+            <summary>
+            Generates a description for only the MONTH portion of the expression
+            </summary>
+            <returns>The MONTH description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetDayOfMonthDescription">
+            <summary>
+            Generates a description for only the DAYOFMONTH portion of the expression
+            </summary>
+            <returns>The DAYOFMONTH description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetYearDescription">
+            <summary>
+            Generates a description for only the YEAR portion of the expression
+            </summary>
+            <returns>The YEAR description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetSegmentDescription(System.String,System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},System.Func{System.String,System.String},System.Func{System.String,System.String},System.Func{System.String,System.String})">
+            <summary>
+            Generates the segment description
+            <remarks>
+            Range expressions used the 'ComaX0ThroughX1' resource
+            However Romanian language has different idioms for
+            1. 'from number to number' (minutes, seconds, hours, days) => ComaMinX0ThroughMinX1 optional resource
+            2. 'from month to month' ComaMonthX0ThroughMonthX1 optional resource
+            3. 'from year to year' => ComaYearX0ThroughYearX1 oprtional resource
+            therefore <paramref name="getRangeFormat"/> was introduced
+            </remarks>
+            </summary>
+            <param name="expression"></param>
+            <param name="allDescription"></param>
+            <param name="getSingleItemDescription"></param>
+            <param name="getIntervalDescriptionFormat"></param>
+            <param name="getBetweenDescriptionFormat"></param>
+            <param name="getDescriptionFormat"></param>
+            <param name="getRangeFormat">function that formats range expressions depending on cron parts</param>
+            <returns></returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GenerateBetweenSegmentDescription(System.String,System.Func{System.String,System.String},System.Func{System.String,System.String})">
+            <summary>
+            Generates the between segment description
+            </summary>
+            <param name="betweenExpression"></param>
+            <param name="getBetweenDescriptionFormat"></param>
+            <param name="getSingleItemDescription"></param>
+            <returns>The between segment description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.FormatTime(System.String,System.String)">
+            <summary>
+            Given time parts, will contruct a formatted time description
+            </summary>
+            <param name="hourExpression">Hours part</param>
+            <param name="minuteExpression">Minutes part</param>
+            <returns>Formatted time description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.FormatTime(System.String,System.String,System.String)">
+            <summary>
+            Given time parts, will contruct a formatted time description
+            </summary>
+            <param name="hourExpression">Hours part</param>
+            <param name="minuteExpression">Minutes part</param>
+            <param name="secondExpression">Seconds part</param>
+            <returns>Formatted time description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.TransformVerbosity(System.String,System.Boolean)">
+            <summary>
+            Transforms the verbosity of the expression description by stripping verbosity from original description
+            </summary>
+            <param name="description">The description to transform</param>
+            <param name="useVerboseFormat">If true, will leave description as it, if false, will strip verbose parts</param>
+            <returns>The transformed description with proper verbosity</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetString(System.String)">
+            <summary>
+            Gets a localized string resource
+            refactored because Resources.ResourceManager.GetString was way too long
+            </summary>
+            <param name="resourceName">name of the resource</param>
+            <returns>translated resource</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetDescription(System.String)">
+            <summary>
+            Generates a human readable string for the Cron Expression
+            </summary>
+            <param name="expression">The cron expression string</param>
+            <returns>The cron expression description</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionDescriptor.GetDescription(System.String,CronExpressionDescriptor.Options)">
+            <summary>
+            Generates a human readable string for the Cron Expression
+            </summary>
+            <param name="expression">The cron expression string</param>
+            <param name="options">Options to control the output description</param>
+            <returns>The cron expression description</returns>
+        </member>
+        <member name="T:CronExpressionDescriptor.ExpressionParser">
+            <summary>
+            Cron Expression Parser
+            </summary>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionParser.#ctor(System.String,CronExpressionDescriptor.Options)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CronExpressionDescriptor.ExpressionParser"/> class
+            </summary>
+            <param name="expression">The cron expression string</param>
+            <param name="options">Parsing options</param>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionParser.Parse">
+            <summary>
+            Parses the cron expression string
+            </summary>
+            <returns>A 7 part string array, one part for each component of the cron expression (seconds, minutes, etc.)</returns>
+        </member>
+        <member name="M:CronExpressionDescriptor.ExpressionParser.NormalizeExpression(System.String[])">
+            <summary>
+            Converts cron expression components into consistent, predictable formats.
+            </summary>
+            <param name="expressionParts">A 7 part string array, one part for each component of the cron expression</param>
+        </member>
+        <member name="T:CronExpressionDescriptor.Options">
+            <summary>
+            Options for parsing and describing a Cron Expression
+            </summary>
+        </member>
+        <member name="M:MultipartDataMediaFormatter.Converters.HttpContentToFormDataConverter.UnquoteToken(System.String)">
+            <summary>
+            Remove bounding quotes on a token if present
+            </summary>
+        </member>
+        <member name="M:MultipartDataMediaFormatter.Converters.HttpContentToFormDataConverter.FixFilename(System.String)">
+            <summary>
+            Amend filenames to remove surrounding quotes and remove path from IE
+            </summary>
+        </member>
+        <member name="M:MultipartDataMediaFormatter.Infrastructure.Logger.IFormDataConverterLogger.LogError(System.String,System.Exception)">
+            <summary>
+            Logs an error.
+            </summary>
+            <param name="errorPath">The path to the member for which the error is being logged.</param>
+            <param name="exception">The exception to be logged.</param>
+        </member>
+        <member name="M:MultipartDataMediaFormatter.Infrastructure.Logger.IFormDataConverterLogger.LogError(System.String,System.String)">
+            <summary>
+            Logs an error.
+            </summary>
+            <param name="errorPath">The path to the member for which the error is being logged.</param>
+            <param name="errorMessage">The error message to be logged.</param>
+        </member>
+        <member name="M:MultipartDataMediaFormatter.Infrastructure.Logger.IFormDataConverterLogger.EnsureNoErrors">
+            <summary>
+            throw exception if errors found
+            </summary>
+        </member>
+        <member name="P:MultipartDataMediaFormatter.Infrastructure.MultipartFormatterSettings.SerializeByteArrayAsHttpFile">
+            <summary>
+            serialize byte array property as HttpFile when sending data if true or as indexed array if false
+            (default value is "false)
+            </summary>
+        </member>
+        <member name="P:MultipartDataMediaFormatter.Infrastructure.MultipartFormatterSettings.ValidateNonNullableMissedProperty">
+            <summary>
+            add validation error "The value is required." if no value is present in request for non-nullable property if this parameter is "true"
+            (default value is "false)
+            </summary>
+        </member>
+        <member name="P:MultipartDataMediaFormatter.Infrastructure.MultipartFormatterSettings.CultureInfo">
+            <summary>
+            default is CultureInfo.CurrentCulture
+            </summary>
+        </member>
+        <member name="T:MultipartDataMediaFormatter.Infrastructure.TypeConverters.DateTimeConverterISO8601">
+            <summary>
+            convert datetime to ISO 8601 format string
+            </summary>
+        </member>
+    </members>
+</doc>

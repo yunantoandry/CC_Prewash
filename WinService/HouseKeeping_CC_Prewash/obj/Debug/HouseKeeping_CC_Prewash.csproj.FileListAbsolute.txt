@@ -1,0 +1,72 @@
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\WinSCP.exe
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.exe.config
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.exe
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.pdb
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.exe
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\log4net.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\WinSCPnet.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Cronos.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Newtonsoft.Json.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Handlebars.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\DocumentFormat.OpenXml.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\ExcelNumberFormat.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\FastMember.dll
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.pdb
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.exe.config
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\log4net.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Cronos.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Newtonsoft.Json.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.pdb
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.pdb
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\DocumentFormat.OpenXml.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\bin\Debug\ExcelNumberFormat.xml
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csprojAssemblyReference.cache
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csproj.CoreCompileInputs.cache
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csproj.CopyComplete
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.exe
+D:\test_one_run\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\WinSCP.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\HouseKeeping_CC_Prewash.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\log4net.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\WinSCPnet.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Cronos.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Newtonsoft.Json.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Handlebars.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\DocumentFormat.OpenXml.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\ExcelNumberFormat.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\FastMember.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Common.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\log4net.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Cronos.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Newtonsoft.Json.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\ClosedXML.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\Dapper.SimpleCRUD.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\DansCSharpLibrary.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\DocumentFormat.OpenXml.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\bin\Debug\ExcelNumberFormat.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csprojAssemblyReference.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csproj.CoreCompileInputs.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.csproj.CopyComplete
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\HouseKeeping_CC_Prewash\obj\Debug\HouseKeeping_CC_Prewash.pdb

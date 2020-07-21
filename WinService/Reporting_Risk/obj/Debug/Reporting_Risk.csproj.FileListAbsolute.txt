@@ -1,0 +1,105 @@
+D:\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CoreCompileInputs.cache
+D:\WinService\Reporting_Risk\bin\Debug\WinSCP.exe
+D:\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe.config
+D:\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe
+D:\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.pdb
+D:\WinService\Reporting_Risk\bin\Debug\Common.exe
+D:\WinService\Reporting_Risk\bin\Debug\log4net.dll
+D:\WinService\Reporting_Risk\bin\Debug\WinSCPnet.dll
+D:\WinService\Reporting_Risk\bin\Debug\Cronos.dll
+D:\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.dll
+D:\WinService\Reporting_Risk\bin\Debug\ClosedXML.dll
+D:\WinService\Reporting_Risk\bin\Debug\Dapper.dll
+D:\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.dll
+D:\WinService\Reporting_Risk\bin\Debug\Handlebars.dll
+D:\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.dll
+D:\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.dll
+D:\WinService\Reporting_Risk\bin\Debug\FastMember.dll
+D:\WinService\Reporting_Risk\bin\Debug\Common.pdb
+D:\WinService\Reporting_Risk\bin\Debug\Common.exe.config
+D:\WinService\Reporting_Risk\bin\Debug\log4net.xml
+D:\WinService\Reporting_Risk\bin\Debug\Cronos.xml
+D:\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.xml
+D:\WinService\Reporting_Risk\bin\Debug\ClosedXML.pdb
+D:\WinService\Reporting_Risk\bin\Debug\ClosedXML.xml
+D:\WinService\Reporting_Risk\bin\Debug\Dapper.xml
+D:\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.xml
+D:\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.xml
+D:\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.xml
+D:\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CopyComplete
+D:\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.exe
+D:\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.pdb
+D:\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csprojAssemblyReference.cache
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\WinSCP.exe
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe.config
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.pdb
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Common.exe
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\log4net.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\WinSCPnet.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Cronos.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\ClosedXML.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Dapper.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Handlebars.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\FastMember.dll
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Common.pdb
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Common.exe.config
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\log4net.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Cronos.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\ClosedXML.pdb
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\ClosedXML.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Dapper.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.pdb
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.xml
+D:\test_one_run\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.xml
+D:\test_one_run\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csprojAssemblyReference.cache
+D:\test_one_run\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CoreCompileInputs.cache
+D:\test_one_run\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CopyComplete
+D:\test_one_run\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.exe
+D:\test_one_run\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\WinSCP.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Reporting_Risk.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Common.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\log4net.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\WinSCPnet.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Cronos.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\ClosedXML.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Dapper.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Handlebars.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\FastMember.dll
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Common.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Common.exe.config
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\log4net.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Cronos.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Newtonsoft.Json.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\ClosedXML.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\ClosedXML.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Dapper.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\Dapper.SimpleCRUD.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.pdb
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\DansCSharpLibrary.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\DocumentFormat.OpenXml.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\bin\Debug\ExcelNumberFormat.xml
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csprojAssemblyReference.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CoreCompileInputs.cache
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.csproj.CopyComplete
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.exe
+D:\TASK CIMB NIAGA\CRDE\CC PREWASH\Code\WinService\Reporting_Risk\obj\Debug\Reporting_Risk.pdb

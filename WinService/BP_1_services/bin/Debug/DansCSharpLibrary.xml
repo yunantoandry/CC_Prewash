@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DansCSharpLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DansCSharpLibrary.Comparers.StringComparerIgnoreCase">
+            <summary>
+            Comparer used to check if strings are the same while ignoring case.
+            </summary>
+        </member>
+        <member name="M:DansCSharpLibrary.Configuration.ConfigurationManager.GetValueFromConfigurationManagerAppSettings(System.String)">
+            <summary>
+            Gets the value of a key in the appSettings section of the app/web.config file, or throws a System.Configuration.ConfigurationErrorsException exception if it is not found.
+            </summary>
+            <param name="appSettingKey">Name of the application setting key in the app/web.config file.</param>
+            <returns></returns>
+            <exception cref="T:System.Configuration.ConfigurationErrorsException"></exception>
+        </member>
+        <member name="M:DansCSharpLibrary.Configuration.ConfigurationManager.GetValueFromConfigurationManagerAppSettings``1(System.String)">
+            <summary>
+            Gets the value of a key in the appSettings section of the app/web.config file, or throws a System.Configuration.ConfigurationErrorsException exception if it is not found or cannot be converted to the specified type.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="appSettingKey">Name of the application setting key in the app/web.config file.</param>
+            <returns></returns>
+            <exception cref="T:System.Configuration.ConfigurationErrorsException"></exception>
+        </member>
+        <member name="M:DansCSharpLibrary.Configuration.ConfigurationManager.GetConnectionStringFromConfigurationManagerConnectionStrings(System.String)">
+            <summary>
+            Gets the connection string of a name in the connectionStrings section of the app/web.config file, or throws a System.Configuration.ConfigurationErrorsException exception if it is not found.
+            </summary>
+            <param name="connectionStringName">Name of the connection string in the app/web.config file.</param>
+            <returns></returns>
+            <exception cref="T:System.Configuration.ConfigurationErrorsException"></exception>
+        </member>
+        <member name="T:DansCSharpLibrary.Events.DelayedEvent">
+            <summary>
+            Class used to prevent an event from firing multiple times within a specified timespan.
+            If the event is told to fire multiple times in a given timespan, it will only fire once when the timespan has elapsed.
+            </summary>
+        </member>
+        <member name="F:DansCSharpLibrary.Events.DelayedEvent.DefaultDelay">
+            <summary>
+            How long to wait after FireEvent() is called before actually firing the event.
+            <para>This value may be overridden directly when calling FireEvent().</para>
+            <para>Use TimeSpan.Zero to have the event fire immediately.</para>
+            </summary>
+        </member>
+        <member name="E:DansCSharpLibrary.Events.DelayedEvent.EventFired">
+            <summary>
+            The event triggered when the FireEvent() function is called (after the specified Delay has elapsed).
+            </summary>
+        </member>
+        <member name="F:DansCSharpLibrary.Events.DelayedEvent._timer">
+            <summary>
+            Timer used to fire the event after the specified Delay of time has elapsed.
+            </summary>
+        </member>
+        <member name="F:DansCSharpLibrary.Events.DelayedEvent._sender">
+            <summary>
+            The last object that requested the event to fire.
+            </summary>
+        </member>
+        <member name="F:DansCSharpLibrary.Events.DelayedEvent._eventArgs">
+            <summary>
+            The arguments to pass the to the event handler.
+            </summary>
+        </member>
+        <member name="M:DansCSharpLibrary.Events.DelayedEvent.#ctor(System.TimeSpan,System.EventHandler[])">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="defaultDelay">How long to wait before firing the event.</param>
+            <param name="eventHandlers">The event handlers to add to the EventFired event.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Events.DelayedEvent._timer_Elapsed(System.Object)">
+            <summary>
+            The Timer callback that fires when the Timer's timespan has elapsed.
+            </summary>
+            <param name="state">I don't know what this does, but this is the Timer callback delegate signature that is required.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Events.DelayedEvent.FireEvent(System.Object,System.EventArgs,System.Nullable{System.TimeSpan})">
+            <summary>
+            Triggers the event to fire.
+            <para>The event will not fire until the Delay has elapsed since the last time this function was called (i.e. each time this function is called, the delay timer is reset).
+            Because of this, if FireEvent() is constantly called without the Delay timespan elapsing between calls, the event potentially may never fire.</para>
+            <para>If this is called multiple times within the Delay timespan, it will only fire once.</para>
+            <para>Only the Sender and EventArgs of the last call to this function will be passed to the event handlers.</para>
+            </summary>
+            <param name="sender">The object that triggered the event.</param>
+            <param name="eventArgs">The <see cref="T:System.EventArgs" /> instance containing the event data to pass to the event handlers.</param>
+            <param name="delayOverride">How long to wait before firing the event.
+            <para>Leave this null to use the DefaultDelay.</para>
+            <para>Use TimeSpan.Zero to have the event fire immediately.</para></param>
+        </member>
+        <member name="M:DansCSharpLibrary.Events.DelayedEvent.Dispose">
+            <summary>
+            Release the resources used by this class.
+            </summary>
+        </member>
+        <member name="F:DansCSharpLibrary.Exceptions.ExceptionHelper.DEFAULT_INNER_EXCEPTION_MESSAGE_SEPARATOR">
+            <summary>
+            The default separator character(s) used to separate inner exception messages.
+            </summary>
+        </member>
+        <member name="M:DansCSharpLibrary.Exceptions.ExceptionHelper.GetExceptionMessagesBasedOnDebugging(System.Exception,System.Boolean,System.String)">
+            <summary>
+            Gets the exception error to return based on if a Debugger is attached or not.
+            <para>If a Debugger is attached, ex.ToString() is returned.
+            This typically contains more information that can be useful to tracking down where in code the exception was thrown from.</para>
+            <para>If a Debugger is not attached, GetExceptionMessages(ex, innerExceptionMessageSeparator) is returned. This is a more user-friendly error message.</para>
+            </summary>
+            <param name="ex">The exception to process.</param>
+            <param name="removeSeeInnerExceptionForDetailsStringsFromMessage">If true all occurrences of "See the inner exception for details." will be removed from the returned string.</param>
+            <param name="innerExceptionMessageSeparator">The separator to use to separate each inner exception's message in the returned string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Exceptions.ExceptionHelper.GetExceptionMessages(System.Exception,System.Boolean,System.String)">
+            <summary>
+            Gets the exception's message, along with all inner exception messages. This is typically a more user-friendly error message than ex.ToString().
+            </summary>
+            <param name="ex">The exception to process.</param>
+            <param name="removeSeeInnerExceptionForDetailsStringsFromMessage">If true all occurrences of "See the inner exception for details." will be removed from the returned string.</param>
+            <param name="innerExceptionMessageSeparator">The separator to use to separate each inner exception's message in the returned string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.ActionExtensions.ExecuteWithRetries(System.Action,System.Int32,System.TimeSpan,System.TimeSpan,System.Predicate{System.Exception})">
+            <summary>
+            Executes the action with retries.
+            </summary>
+            <param name="action">The action to execute.</param>
+            <param name="maxNumberOfRetries">The maximum number of retries.</param>
+            <param name="timeToWaitBetweenRetries">The time to wait between retries.</param>
+            <param name="doNotRetryAgainIfThisMuchTimeHasElapsed">Do not retry again if this much time has elapsed.</param>
+            <param name="actionShouldBeRetried">Predicate that returns if the function should be retried or not based on the exception that was thrown.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.FuncExtensions.ExecuteWithRetriesAsync(System.Func{System.Threading.Tasks.Task},System.Int32,System.TimeSpan,System.TimeSpan,System.Predicate{System.Exception})">
+            <summary>
+            Executes the function with retries asynchronously.
+            </summary>
+            <param name="asyncFunc">The asynchronous function to execute.</param>
+            <param name="maxNumberOfRetries">The maximum number of retries.</param>
+            <param name="timeToWaitBetweenRetries">The time to wait between retries.</param>
+            <param name="doNotRetryAgainIfThisMuchTimeHasElapsed">Do not retry again if this much time has elapsed.</param>
+            <param name="funcShouldBeRetried">Predicate that returns if the function should be retried or not based on the exception that was thrown.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.SecureStringExtensions.ToUnsecureString(System.Security.SecureString)">
+            <summary>
+            Converts a SecureString to a regular string.
+            </summary>
+            <param name="secureString">The secure string.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">secureString</exception>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.SecureStringExtensions.ToSecureString(System.String)">
+            <summary>
+            Converts the string to a SecureString.
+            </summary>
+            <param name="unsecureString">The unsecure string.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">unsecureString</exception>
+        </member>
+        <member name="T:DansCSharpLibrary.Extensions.StringExtensions">
+            <summary>
+            Extensions to the string class.
+            </summary>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.StringExtensions.ConvertTo``1(System.String)">
+            <summary>
+            Converts the string to the type.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="stringValue">The string value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.StringExtensions.ConvertToOrDefault``1(System.String)">
+            <summary>
+            Converts the string to the type.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="stringValue">The string value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.StringExtensions.ConvertToOrDefault``1(System.String,``0)">
+            <summary>
+            Converts the string to the type.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="stringValue">The string value.</param>
+            <param name="defaultValue">The default value to return if unable to convert the string to the type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.StringExtensions.Contains(System.String,System.String,System.StringComparison)">
+            <summary>
+            Determines whether [contains] [the specified value].
+            </summary>
+            <param name="source">The source string.</param>
+            <param name="value">The value to look for in the string.</param>
+            <param name="stringComparison">The string comparison method to use.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Extensions.TimeSpanExtensions.AsHumanFriendlyString(System.TimeSpan)">
+            <summary>
+            Gets the TimeSpan as a human-friendly readable string.
+            </summary>
+            <param name="timeSpan">The time span.</param>
+        </member>
+        <member name="T:DansCSharpLibrary.Serialization.BinarySerialization">
+            <summary>
+            Functions for performing common binary Serialization operations.
+            <para>All properties and variables will be serialized.</para>
+            <para>Object type (and all child types) must be decorated with the [Serializable] attribute.</para>
+            <para>To prevent a variable from being serialized, decorate it with the [NonSerialized] attribute; cannot be applied to properties.</para>
+            </summary>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.BinarySerialization.WriteToBinaryFile``1(System.String,``0,System.Boolean)">
+            <summary>
+            Writes the given object instance to a binary file.
+            <para>Object type (and all child types) must be decorated with the [Serializable] attribute.</para>
+            <para>To prevent a variable from being serialized, decorate it with the [NonSerialized] attribute; cannot be applied to properties.</para>
+            </summary>
+            <typeparam name="T">The type of object being written to the XML file.</typeparam>
+            <param name="filePath">The file path to write the object instance to.</param>
+            <param name="objectToWrite">The object instance to write to the XML file.</param>
+            <param name="append">If false the file will be overwritten if it already exists. If true the contents will be appended to the file.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.BinarySerialization.ReadFromBinaryFile``1(System.String)">
+            <summary>
+            Reads an object instance from a binary file.
+            </summary>
+            <typeparam name="T">The type of object to read from the XML.</typeparam>
+            <param name="filePath">The file path to read the object instance from.</param>
+            <returns>Returns a new instance of the object read from the binary file.</returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.BinarySerialization.SerializeToString``1(``0)">
+            <summary>
+            Serializes the given instance to a string.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.BinarySerialization.DeserializeFromString``1(System.String)">
+            <summary>
+            Deserializes a new instance from the given serialized string.
+            </summary>
+            <param name="instanceString">The instance string.</param>
+            <returns></returns>
+        </member>
+        <member name="T:DansCSharpLibrary.Serialization.JsonSerialization">
+            <summary>
+            Functions for performing common Json Serialization operations.
+            <para>Requires the Newtonsoft.Json assembly (Json.Net package in NuGet Gallery) to be referenced in your project.</para>
+            <para>Only public properties and variables will be serialized.</para>
+            <para>Use the [JsonIgnore] attribute to ignore specific public properties or variables.</para>
+            <para>Object to be serialized must have a parameterless constructor.</para>
+            </summary>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.JsonSerialization.WriteToJsonFile``1(System.String,``0,System.Boolean)">
+            <summary>
+            Writes the given object instance to a Json file.
+            <para>Object type must have a parameterless constructor.</para>
+            <para>Only Public properties and variables will be written to the file. These can be any type though, even other classes.</para>
+            <para>If there are public properties/variables that you do not want written to the file, decorate them with the [JsonIgnore] attribute.</para>
+            </summary>
+            <typeparam name="T">The type of object being written to the file.</typeparam>
+            <param name="filePath">The file path to write the object instance to.</param>
+            <param name="objectToWrite">The object instance to write to the file.</param>
+            <param name="append">If false the file will be overwritten if it already exists. If true the contents will be appended to the file.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.JsonSerialization.ReadFromJsonFile``1(System.String)">
+            <summary>
+            Reads an object instance from an Json file.
+            <para>Object type must have a parameterless constructor.</para>
+            </summary>
+            <typeparam name="T">The type of object to read from the file.</typeparam>
+            <param name="filePath">The file path to read the object instance from.</param>
+            <returns>Returns a new instance of the object read from the Json file.</returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.JsonSerialization.SerializeToString``1(``0)">
+            <summary>
+            Serializes the instance to a JSON string.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="instance">The instance to serialize.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.JsonSerialization.DeserializeFromString``1(System.String)">
+            <summary>
+            Deserializes an instance from the given JSON string.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="instanceString">The instance XML string.</param>
+            <returns></returns>
+        </member>
+        <member name="T:DansCSharpLibrary.Serialization.XmlSerialization">
+            <summary>
+            Functions for performing common XML Serialization operations.
+            <para>Only public properties and variables will be serialized.</para>
+            <para>Use the [XmlIgnore] attribute to prevent a property/variable from being serialized.</para>
+            <para>Object to be serialized must have a parameterless constructor.</para>
+            </summary>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.XmlSerialization.WriteToXmlFile``1(System.String,``0,System.Boolean)">
+            <summary>
+            Writes the given object instance to an XML file.
+            <para>Only Public properties and variables will be written to the file. These can be any type though, even other classes.</para>
+            <para>If there are public properties/variables that you do not want written to the file, decorate them with the [XmlIgnore] attribute.</para>
+            <para>Object type must have a parameterless constructor.</para>
+            </summary>
+            <typeparam name="T">The type of object being written to the file.</typeparam>
+            <param name="filePath">The file path to write the object instance to.</param>
+            <param name="objectToWrite">The object instance to write to the file.</param>
+            <param name="append">If false the file will be overwritten if it already exists. If true the contents will be appended to the file.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.XmlSerialization.ReadFromXmlFile``1(System.String)">
+            <summary>
+            Reads an object instance from an XML file.
+            <para>Object type must have a parameterless constructor.</para>
+            </summary>
+            <typeparam name="T">The type of object to read from the file.</typeparam>
+            <param name="filePath">The file path to read the object instance from.</param>
+            <returns>Returns a new instance of the object read from the XML file.</returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.XmlSerialization.SerializeToString``1(``0)">
+            <summary>
+            Serializes the instance to an XML string.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="instance">The instance to serialize.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Serialization.XmlSerialization.DeserializeFromString``1(System.String)">
+            <summary>
+            Deserializes an instance from the given XML string.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="instanceString">The instance XML string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.Threading.Tasks.StartAndWaitAllThrottled(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Starts the given tasks and waits for them to complete. This will run, at most, the specified number of tasks in parallel.
+            <para>NOTE: If one of the given tasks has already been started, an exception will be thrown.</para>
+            </summary>
+            <param name="tasksToRun">The tasks to run.</param>
+            <param name="maxActionsToRunInParallel">The maximum number of tasks to run in parallel.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Threading.Tasks.StartAndWaitAllThrottled(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Starts the given tasks and waits for them to complete. This will run the specified number of tasks in parallel.
+            <para>NOTE: If a timeout is reached before the Task completes, another Task may be started, potentially running more than the specified maximum allowed.</para>
+            <para>NOTE: If one of the given tasks has already been started, an exception will be thrown.</para>
+            </summary>
+            <param name="tasksToRun">The tasks to run.</param>
+            <param name="maxActionsToRunInParallel">The maximum number of tasks to run in parallel.</param>
+            <param name="timeoutInMilliseconds">The maximum milliseconds we should allow the max tasks to run in parallel before allowing another task to start. Specify -1 to wait indefinitely.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Threading.Tasks.StartAndWaitAllThrottledAsync(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Starts the given tasks and waits for them to complete. This will run, at most, the specified number of tasks in parallel.
+            <para>NOTE: If one of the given tasks has already been started, an exception will be thrown.</para>
+            </summary>
+            <param name="tasksToRun">The tasks to run.</param>
+            <param name="maxTasksToRunInParallel">The maximum number of tasks to run in parallel.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Threading.Tasks.StartAndWaitAllThrottledAsync(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Starts the given tasks and waits for them to complete. This will run the specified number of tasks in parallel.
+            <para>NOTE: If a timeout is reached before the Task completes, another Task may be started, potentially running more than the specified maximum allowed.</para>
+            <para>NOTE: If one of the given tasks has already been started, an exception will be thrown.</para>
+            </summary>
+            <param name="tasksToRun">The tasks to run.</param>
+            <param name="maxTasksToRunInParallel">The maximum number of tasks to run in parallel.</param>
+            <param name="timeoutInMilliseconds">The maximum milliseconds we should allow the max tasks to run in parallel before allowing another task to start. Specify -1 to wait indefinitely.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Threading.Tasks.StartAndWaitAllThrottled(System.Collections.Generic.IEnumerable{System.Action},System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Starts the given Actions and waits for them to complete. This will run, at most, the specified number of Actions in parallel.
+            </summary>
+            <param name="actionsToRun">The actions to run.</param>
+            <param name="maxActionsToRunInParallel">The maximum actions to run in parallel.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Timers.Measure.ElapsedTime(System.Action)">
+            <summary>
+            Returns how long it takes to perform the given action.
+            </summary>
+            <param name="action">The action.</param>
+        </member>
+        <member name="M:DansCSharpLibrary.Timers.Measure.ElapsedTimeAsync(System.Func{System.Threading.Tasks.Task})">
+            <summary>
+            Elapseds the time asynchronous.
+            </summary>
+            <param name="action">The action.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DansCSharpLibrary.WindowsInterop.PowerAndDisplay.SetConstantDisplayAndPower(System.Boolean,System.String)">
+            <summary>
+            Prevent screensaver, display dimming and power saving. This function wraps PInvokes on Win32 API.
+            </summary>
+            <param name="enableConstantDisplayAndPower">True to get a constant display and power - False to clear the settings</param>
+            <param name="reason">The reason for changing the power settings.</param>
+        </member>
+    </members>
+</doc>
