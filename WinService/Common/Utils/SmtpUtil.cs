@@ -1,5 +1,6 @@
 ﻿using Common.Model;
 using Common.Repository;
+using HandlebarsDotNet;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,9 +15,6 @@ namespace Common.Utils
     public class SmtpUtil : Smtp
     {
         public string ErrorMessage { get; set; }
-        private static string HostAdd = ServiceConfiguration.GetAppSettingValue("Host");
-        private static string FromEmailid = ServiceConfiguration.GetAppSettingValue("FromMail");
-        private static string Pass = ServiceConfiguration.GetAppSettingValue("Password");
 
         public SmtpUtil()
         {
@@ -57,6 +55,7 @@ namespace Common.Utils
             this.SMTPDefaultCredentials = Convert.ToBoolean(colls.Where(x => x.ParameterCode.ToLower().Equals("smtpdefaultcredentials")).SingleOrDefault().ParameterValue);
             this.SMTPSSL = Convert.ToBoolean(colls.Where(x => x.ParameterCode.ToLower().Equals("smtpssl")).SingleOrDefault().ParameterValue);
             this.SMTPPort = Convert.ToInt32(colls.Where(x => x.ParameterCode.ToLower().Equals("smtpport")).SingleOrDefault().ParameterValue);
+
         }
 
         private void ClientEmail (MailMessage msg)
@@ -174,14 +173,18 @@ namespace Common.Utils
             }
         }
 
-        public static void SendEmail_With_Attachment(String ToEmail, String Subj, string Message, string sourcePath)
+        public void SendEmail_With_Attachment(string ToEmail, string Subject, string sourcePath)
         {
+            var bodyTemplate = GetEmbeddedEmailBodyTemplate("CC_Prewash_A-Score_in_CRDE.html");
+
+            //var createSubject = Handlebars.Compile(subjectTemplate);
+         //   var createBody = Handlebars.Compile(bodyTemplate);
 
             //creating the object of mailmessage
-            System.Net.Mail.MailMessage mailMessage = new System.Net.Mail.MailMessage();
-            mailMessage.From = new MailAddress(FromEmailid);
-            mailMessage.Subject = Subj;
-            mailMessage.Body = Message;
+            MailMessage mailMessage = new MailMessage();
+            mailMessage.From = new MailAddress(this.EmailFrom);
+            mailMessage.Subject = Subject;
+            mailMessage.Body = bodyTemplate;
             mailMessage.IsBodyHtml = true;
             mailMessage.To.Add(new MailAddress(ToEmail));
             FileStream fStream;
@@ -190,21 +193,43 @@ namespace Common.Utils
             {
                 fStream = File.OpenRead(sourcePath + "\\" + files.Name);
                 mailMessage.Attachments.Add(new System.Net.Mail.Attachment(fStream, files.Name));
-                fStream.Close();
+              //  fStream.Close();
             }
 
             SmtpClient smtp = new SmtpClient();
-            smtp.Host = HostAdd;
+            smtp.Host = SMTPServer;
 
             //network and security related credentia
-            smtp.EnableSsl = true;
+            smtp.EnableSsl = SMTPSSL;
             NetworkCredential NetworkCred = new NetworkCredential();
-            NetworkCred.UserName = mailMessage.From.Address;
-            NetworkCred.Password = Pass;
-            smtp.UseDefaultCredentials = true;
+            NetworkCred.UserName = EmailFrom;
+            NetworkCred.Password = SMTPPassword;
+            smtp.UseDefaultCredentials = Convert.ToBoolean(SMTPDefaultCredentials);
             smtp.Credentials = NetworkCred;
-            smtp.Port = 587;
+            smtp.Port = SMTPPort;
             smtp.Send(mailMessage);
+        }
+
+        public string GetEmbeddedEmailBodyTemplate(string embeddedEmailBodyTemplateFileName)
+        {
+          //  var embeddedEmailTemplate = $"Common.Services.Email.EmailTemplates.{embeddedEmailBodyTemplateFileName}";
+            var embeddedEmailTemplate =@"C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Common\Services\Email\EmailTemplates\"+ embeddedEmailBodyTemplateFileName;
+          
+        
+
+            try
+            {
+               // using (var stream = typeof(SmtpUtil).Assembly.GetManifestResourceStream(embeddedEmailTemplate))
+                using (var reader = new StreamReader(embeddedEmailTemplate))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Could not get email template for '{embeddedEmailBodyTemplateFileName}' at '{embeddedEmailTemplate}'.", ex);
+            }
+
         }
     }
 }

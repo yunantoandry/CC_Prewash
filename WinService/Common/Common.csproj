@@ -310,7 +310,6 @@
     <Compile Include="XmlModel\EUC_CC_SID_PEKERJAAN.cs" />
     <Compile Include="XmlModel\EUC_CC_SID_SUMBER.cs" />
     <Compile Include="XmlModel\EUC_CC_SID_SUMMARY.cs" />
-    <Compile Include="XML\CreateFiles.cs" />
     <Compile Include="XML\GenerateXML.cs" />
     <Compile Include="XML\ReadAndSaveToDatabase.cs" />
     <Compile Include="XML\SaveXmlToDB.cs" />
@@ -398,6 +397,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Services\Email\EmailTemplates\AsnUnconfirmedEmailTemplate.html" />
+    <Content Include="Services\Email\EmailTemplates\CC_Prewash_A-Score_in_CRDE.html" />
     <Content Include="Services\Email\EmailTemplates\GeneralTemplate.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

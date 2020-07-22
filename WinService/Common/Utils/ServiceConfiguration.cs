@@ -17,7 +17,6 @@ namespace Common.Utils
             }
             return connectionStringElement.ConnectionString;
         }
-
         public static int IntervalTimerConfig
         {
             get
@@ -79,10 +78,7 @@ namespace Common.Utils
         }
     }
         
-        //public static string GetAppSettingValue(string paramName)
-        //{
-        //    return String.Format(ConfigurationManager.AppSettings[paramName]);
-        //}
+       
 
     
 }

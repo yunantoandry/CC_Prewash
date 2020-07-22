@@ -1,6 +1,8 @@
 ﻿using Common.Model;
 using Common.Repository;
+using Common.Services.Email;
 using Common.Services.Reporting;
+using Common.Utils;
 using Common.XML;
 using log4net;
 using System;
@@ -19,6 +21,10 @@ namespace Common.Services.FTP
         private readonly ILog _log = LogManager.GetLogger(typeof(SendFileToFTP));
         private readonly FTPS _FTPS;
         private readonly Create_Reporting_Risk _reporting_Risk;
+       // private readonly SmtpUtil _smtpUtil;
+
+       // private string toAddress = ServiceConfiguration.GetAppSettingValue("toAddress");
+
         // private readonly SendEmailsInventory3plCommander _SendEmailsInventory3pl;
         private static string fileName = string.Empty;       
         private static string fileName_RAC = string.Empty;
@@ -32,6 +38,7 @@ namespace Common.Services.FTP
         {
             _FTPS = new FTPS();
             _reporting_Risk = new Create_Reporting_Risk();
+          //  _smtpUtil = new SmtpUtil();
         }
         public void Handle()
         {
@@ -138,8 +145,11 @@ namespace Common.Services.FTP
                 }
                 sb.Append("EOF|" + DateTime.Now.ToString("yyyyMMdd") + "|" + listXmlTranResponse.Count);
                 Console.WriteLine(sb.ToString());
-                CreateFile(fullFilePath, sb.ToString());
-                _log.Info($"Successfully Create Filename in {fullFilePath}");
+                if(listXmlTranResponse.Count > 0)
+                {
+                    CreateFile(fullFilePath, sb.ToString());
+                    _log.Info($"Successfully Create Filename in {fullFilePath}");
+                }
 
                 StringBuilder sb2 = new StringBuilder();
                 sb2.Append("ApplicationNumber|");
@@ -149,6 +159,7 @@ namespace Common.Services.FTP
                 sb2.Append("Criteria_Name|");
                 sb2.Append("Mandatory ");
                 sb2.Append("\n");
+
                 foreach (var item in lisTable_RAC)
                 {
                     sb2.Append(item.SAS_ID + "|");
@@ -169,8 +180,12 @@ namespace Common.Services.FTP
                 }
                 sb2.Append("EOF|" + DateTime.Now.ToString("yyyyMMdd") + "|" + lisTable_RAC.Count);
                 Console.WriteLine(sb2.ToString());
-                //CreateFile(fullFilePath_RAC, sb2.ToString());
-                //_log.Info($"Successfully Create Filename in {fullFilePath_RAC}");
+                if (lisTable_RAC.Count > 0)
+                {
+                    //CreateFile(fullFilePath_RAC, sb2.ToString());
+                    //_log.Info($"Successfully Create Filename in {fullFilePath_RAC}");
+                }
+
 
                 _reporting_Risk.handle();
 
@@ -200,10 +215,19 @@ namespace Common.Services.FTP
                 }
                 sb3.Append("EOF|" + DateTime.Now.ToString("yyyyMMdd") + "|" + list_xml_error.Count);
                 Console.WriteLine(sb3.ToString());
-                CreateFile(fullFilePath_Failed, sb3.ToString());
-                _log.Info($"Successfully Create Filename in {fullFilePath_Failed}");
+                if (list_xml_error.Count > 0)
+                {
+                    CreateFile(fullFilePath_Failed, sb3.ToString());
+                    _log.Info($"Successfully Create Filename in {fullFilePath_Failed}");
+                }
 
                 _FTPS.handle_upload();
+
+                //string subject = "";
+                //string Message = "";
+
+                //_smtpUtil.SendEmail_With_Attachment(toAddress, subject, Message, mFolderLocalDirectoryOutput);
+
                 String directoryName = mFolderLocalDirectoryDumpOutput;
                 DirectoryInfo dirInfo = new DirectoryInfo(directoryName);
                 if (dirInfo.Exists == false)

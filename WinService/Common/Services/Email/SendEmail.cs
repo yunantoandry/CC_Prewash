@@ -14,9 +14,10 @@ using Common.Repository;
 
 namespace Common.Services.Email
 {
-   public class SendEmail : EmailCreator
+   public class SendEmail 
     {
         private static string mFolderLocalDirectoryDumpOutput = string.Empty;
+        private string mFolderLocalDirectoryOutput = string.Empty;
         public SendEmail()
         {
 
@@ -40,6 +41,9 @@ namespace Common.Services.Email
             SmtpServer.EnableSsl = true;
 
             SmtpServer.Send(mail);
+
+
+            
 
         }
 
@@ -88,9 +92,17 @@ namespace Common.Services.Email
                 string to = toAddressesCsv;
                 string subject = "test email";
                 string body = "body email";
-               // sts = smtpUtil.SendMail(to, subject, body, fCount);
+                sts = smtpUtil.SendMail(to, subject, body);
             }
            // SendEmail_With_Attachment
+        }
+
+        public void email_send3(string to, string subject, string Message, string sourcePath)
+        {
+            SmtpUtil smtpUtil = null;
+            smtpUtil = new SmtpUtil();
+            smtpUtil.SendEmail_With_Attachment(to, subject, sourcePath);
+
         }
         //protected void SendMail(List<string> attachments)
         //{

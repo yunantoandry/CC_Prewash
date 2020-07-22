@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common.Model;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,6 +16,21 @@ namespace Common.Utils
             using (StreamWriter sw = new StreamWriter(fullPath))
             {
                 sw.Write(data);
+            }
+        }
+
+        public static void CreateFileList(string fullPath, List<tr_xml_trans> listXmlTranResponse)
+        {
+
+            using (StreamWriter sw = new StreamWriter(fullPath))
+            {
+                foreach (var item in listXmlTranResponse)
+                {
+                    string wr = item.XML_RESPONSE;
+                    wr = wr.Replace("utf-16", "utf-8");
+                    sw.Flush();
+                    sw.Write(wr);
+                }
             }
         }
     }

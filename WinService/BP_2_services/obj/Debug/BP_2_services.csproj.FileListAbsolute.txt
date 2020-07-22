@@ -137,7 +137,6 @@ C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\bin\Debug\Dan
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\bin\Debug\DansCSharpLibrary.xml
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\bin\Debug\ExcelNumberFormat.xml
-C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\obj\Debug\BP_2_services.csprojAssemblyReference.cache
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CoreCompileInputs.cache
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\obj\Debug\BP_2_services.csproj.CopyComplete
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\BP_2_services\obj\Debug\BP_2_services.exe

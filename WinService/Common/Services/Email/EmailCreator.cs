@@ -189,5 +189,6 @@ namespace Common.Services.Email
                 throw new InvalidOperationException($"Could not get email template for '{embeddedEmailBodyTemplateFileName}' at '{embeddedEmailTemplate}'.", ex);
             }
         }
+        
     }
 }

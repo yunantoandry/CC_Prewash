@@ -314,4 +314,3 @@ C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Common\obj\Debug\Common.csp
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Common\obj\Debug\Common.csproj.CopyComplete
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Common\obj\Debug\Common.exe
 C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Common\obj\Debug\Common.pdb
-C:\Users\AY40384x\Source\Repos\CC_Prewash\WinService\Common\obj\Debug\Common.csprojAssemblyReference.cache
