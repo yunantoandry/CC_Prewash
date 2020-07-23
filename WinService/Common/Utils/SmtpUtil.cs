@@ -173,9 +173,9 @@ namespace Common.Utils
             }
         }
 
-        public void SendEmail_With_Attachment(string ToEmail, string Subject, string sourcePath)
+        public void SendEmail_With_Attachment(string ToEmail, string Subject,string body, string sourcePath)
         {
-            var bodyTemplate = GetEmbeddedEmailBodyTemplate("CC_Prewash_A-Score_in_CRDE.html");
+            var bodyTemplate = GetEmbeddedEmailBodyTemplate(body);
 
             //var createSubject = Handlebars.Compile(subjectTemplate);
          //   var createBody = Handlebars.Compile(bodyTemplate);

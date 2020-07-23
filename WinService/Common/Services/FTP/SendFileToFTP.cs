@@ -21,9 +21,11 @@ namespace Common.Services.FTP
         private readonly ILog _log = LogManager.GetLogger(typeof(SendFileToFTP));
         private readonly FTPS _FTPS;
         private readonly Create_Reporting_Risk _reporting_Risk;
-       // private readonly SmtpUtil _smtpUtil;
+        private readonly SmtpUtil _smtpUtil;
 
-       // private string toAddress = ServiceConfiguration.GetAppSettingValue("toAddress");
+        private string toAddress_CC_Prewash_A_Score_in_CRDE = ServiceConfiguration.GetAppSettingValue("toAddress_CC_Prewash_A_Score_in_CRDE");
+        private string bodyTempalate_bodyTempalate_CC_Prewash_A_Score_in_CRDE = ServiceConfiguration.GetAppSettingValue("bodyTempalate_CC_Prewash_A_Score_in_CRDE");
+        private string subject_CC_Prewash_A_Score_in_CRDE = ServiceConfiguration.GetAppSettingValue("subject_CC_Prewash_A_Score_in_CRDE");
 
         // private readonly SendEmailsInventory3plCommander _SendEmailsInventory3pl;
         private static string fileName = string.Empty;       
@@ -38,7 +40,7 @@ namespace Common.Services.FTP
         {
             _FTPS = new FTPS();
             _reporting_Risk = new Create_Reporting_Risk();
-          //  _smtpUtil = new SmtpUtil();
+            _smtpUtil = new SmtpUtil();
         }
         public void Handle()
         {
@@ -221,12 +223,10 @@ namespace Common.Services.FTP
                     _log.Info($"Successfully Create Filename in {fullFilePath_Failed}");
                 }
 
-                _FTPS.handle_upload();
+                _FTPS.handle_upload(); // if you want send to ftp
 
-                //string subject = "";
-                //string Message = "";
+                //_smtpUtil.SendEmail_With_Attachment(toAddress_CC_Prewash_A_Score_in_CRDE, subject_CC_Prewash_A_Score_in_CRDE, bodyTempalate_bodyTempalate_CC_Prewash_A_Score_in_CRDE, mFolderLocalDirectoryOutput); // if you want send via email
 
-                //_smtpUtil.SendEmail_With_Attachment(toAddress, subject, Message, mFolderLocalDirectoryOutput);
 
                 String directoryName = mFolderLocalDirectoryDumpOutput;
                 DirectoryInfo dirInfo = new DirectoryInfo(directoryName);
