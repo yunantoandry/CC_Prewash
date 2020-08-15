@@ -152,6 +152,10 @@ namespace Common.Services.FTP
                     CreateFile(fullFilePath, sb.ToString());
                     _log.Info($"Successfully Create Filename in {fullFilePath}");
                 }
+                else
+                {
+                    _log.Info($"No File");
+                }
 
                 StringBuilder sb2 = new StringBuilder();
                 sb2.Append("ApplicationNumber|");
@@ -221,6 +225,10 @@ namespace Common.Services.FTP
                 {
                     CreateFile(fullFilePath_Failed, sb3.ToString());
                     _log.Info($"Successfully Create Filename in {fullFilePath_Failed}");
+                }
+                else
+                {
+                    _log.Info($"No File");
                 }
 
                 _FTPS.handle_upload(); // if you want send to ftp
